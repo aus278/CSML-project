@@ -1,3 +1,71 @@
+# --- Datasets ---
+data/
+datasets/
+Data_India/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.xml
+*.json
+*.txt
+*.csv
+
+# --- Deep Learning Model Weights ---
+*.pt
+*.pth
+*.h5
+*.weights
+*.onnx
+*.pb
+*.ckpt
+*.tflite
+*.mlmodel
+checkpoints/
+models/
+weights/
+
+# --- Training Logs & Results ---
+runs/
+logs/
+tensorboard/
+wandb/
+results/
+debug/
+mlruns/
+lightning_logs/
+*.log
+
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+bin/
+lib/
+develop-eggs/
+dist/
+build/
+*.egg-info/
+
+# --- IDE & Jupyter Notebooks ---
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*.ipynb
+.DS_Store
+Thumbs.db
+
+# --- Video Files ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+###################################################### TEMPLATE ######################################################
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

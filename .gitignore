@@ -273,3 +273,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Adding exclusions for large files
+Rdd2022-2/
+yolov*.pt

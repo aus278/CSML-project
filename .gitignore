@@ -1,7 +1,8 @@
 # --- Datasets ---
 data/
 datasets/
-Data_India/
+Rdd2022-2/
+
 *.jpg
 *.jpeg
 *.png
@@ -24,6 +25,7 @@ Data_India/
 checkpoints/
 models/
 weights/
+yolov*.pt
 
 # --- Training Logs & Results ---
 runs/
@@ -273,7 +275,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-
-# Adding exclusions for large files
-Rdd2022-2/
-yolov*.pt
